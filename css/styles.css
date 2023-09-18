@@ -28,6 +28,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header-contact {
+  font-style: normal;
+}
+
 .header-add-item {
   color: #434455;
   font-family: Roboto;
@@ -38,13 +42,26 @@ body {
   letter-spacing: 0.02em;
 }
 
-.span-logo {
+.link {
   color: #2e2f42;
+}
+
+.link-add {
+  color: #434455;
 }
 
 .link:hover,
 .link:focus {
   color: #404bbf;
+}
+
+.link-add:hover,
+.link-add:focus {
+  color: #404bbf;
+}
+
+.span-logo {
+  color: #2e2f42;
 }
 
 /* Main */
